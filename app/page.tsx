@@ -41,21 +41,24 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 const heroSlides = [
   {
     image:
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop",
+      "https://images.pexels.com/photos/10202865/pexels-photo-10202865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     title: "Building Tomorrow Today",
     description:
       "Leading the way in infrastructure development with innovation, expertise, and sustainability.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop",
+      "https://images.pexels.com/photos/6034140/pexels-photo-6034140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "Excellence in Construction",
     description:
       "Delivering world-class infrastructure projects with precision and innovation.",
   },
   {
     image:
-      "https://images.unsplash.com/photo-1455735459330-969b65c65b1c?q=80&w=2070&auto=format&fit=crop",
+      // "https://images.unsplash.com/photo-1455735459330-969b65c65b1c?q=80&w=2070&auto=format&fit=crop",
+      "https://images.pexels.com/photos/9716229/pexels-photo-9716229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     title: "Sustainable Development",
     description:
       "Creating infrastructure that harmonizes with the environment and serves communities.",

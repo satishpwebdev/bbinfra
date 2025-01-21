@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 import { Menu, X, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import Logo from '../public/bblogo.svg'
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -44,7 +46,8 @@ export default function Header() {
         <div className="flex lg:flex-1 ">
           <Link href="/" className="-m-1.5 p-1.5">
             <div className="flex  items-center jusitfy-center gap-2">
-              <Building2 className="h-8 w-auto text-primary" />
+              {/* <Building2 className="h-8 w-auto text-primary" /> */}
+              <Image className="h-16 w-auto text-primary bg-white" src={Logo} alt="name"></Image>
               <div className="s text-white">Bablu Infracon</div>
             </div>
           </Link>

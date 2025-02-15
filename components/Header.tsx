@@ -7,7 +7,7 @@ import { Menu, X, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import Logo from '../public/bblogo.svg'
+import Logo from '../public/bcc.svg'
 
 const navigation = [
   { name: "Home", href: "/" },
